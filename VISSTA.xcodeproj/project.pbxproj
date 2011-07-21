@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37325DD813D7C99E008765D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DD713D7C99E008765D4 /* UIKit.framework */; };
+		37325DDA13D7C99E008765D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DD913D7C99E008765D4 /* Foundation.framework */; };
+		37325DDC13D7C99E008765D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DDB13D7C99E008765D4 /* CoreGraphics.framework */; };
+		37325DE213D7C99E008765D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37325DE013D7C99E008765D4 /* InfoPlist.strings */; };
+		37325DE513D7C99E008765D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37325DE413D7C99E008765D4 /* main.m */; };
+		37325DE813D7C99E008765D4 /* VISSTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37325DE713D7C99E008765D4 /* VISSTAAppDelegate.m */; };
+		37325DEB13D7C99E008765D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37325DE913D7C99E008765D4 /* MainWindow.xib */; };
+		37325DEE13D7C99E008765D4 /* VISSTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37325DED13D7C99E008765D4 /* VISSTAViewController.m */; };
+		37325DF113D7C99E008765D4 /* VISSTAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37325DEF13D7C99E008765D4 /* VISSTAViewController.xib */; };
+		37325DF813D7C99E008765D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DD713D7C99E008765D4 /* UIKit.framework */; };
+		37325DF913D7C99E008765D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DD913D7C99E008765D4 /* Foundation.framework */; };
+		37325DFA13D7C99E008765D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37325DDB13D7C99E008765D4 /* CoreGraphics.framework */; };
+		37325E0213D7C99E008765D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37325E0013D7C99E008765D4 /* InfoPlist.strings */; };
+		37325E0513D7C99E008765D4 /* VISSTATests.h in Resources */ = {isa = PBXBuildFile; fileRef = 37325E0413D7C99E008765D4 /* VISSTATests.h */; };
+		37325E0713D7C99E008765D4 /* VISSTATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37325E0613D7C99E008765D4 /* VISSTATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37325DFB13D7C99E008765D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37325DCA13D7C99D008765D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37325DD213D7C99D008765D4;
+			remoteInfo = VISSTA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37325DD313D7C99D008765D4 /* VISSTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISSTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37325DD713D7C99E008765D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37325DD913D7C99E008765D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37325DDB13D7C99E008765D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37325DDF13D7C99E008765D4 /* VISSTA-Info.plist */ = {isa = PBXFileReference; path = "VISSTA-Info.plist"; sourceTree = "<group>"; };
+		37325DE113D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37325DE313D7C99E008765D4 /* VISSTA-Prefix.pch */ = {isa = PBXFileReference; path = "VISSTA-Prefix.pch"; sourceTree = "<group>"; };
+		37325DE413D7C99E008765D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37325DE613D7C99E008765D4 /* VISSTAAppDelegate.h */ = {isa = PBXFileReference; path = VISSTAAppDelegate.h; sourceTree = "<group>"; };
+		37325DE713D7C99E008765D4 /* VISSTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTAAppDelegate.m; sourceTree = "<group>"; };
+		37325DEA13D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		37325DEC13D7C99E008765D4 /* VISSTAViewController.h */ = {isa = PBXFileReference; path = VISSTAViewController.h; sourceTree = "<group>"; };
+		37325DED13D7C99E008765D4 /* VISSTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTAViewController.m; sourceTree = "<group>"; };
+		37325DF013D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VISSTAViewController.xib; sourceTree = "<group>"; };
+		37325DF713D7C99E008765D4 /* VISSTATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISSTATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37325DFF13D7C99E008765D4 /* VISSTATests-Info.plist */ = {isa = PBXFileReference; path = "VISSTATests-Info.plist"; sourceTree = "<group>"; };
+		37325E0113D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37325E0313D7C99E008765D4 /* VISSTATests-Prefix.pch */ = {isa = PBXFileReference; path = "VISSTATests-Prefix.pch"; sourceTree = "<group>"; };
+		37325E0413D7C99E008765D4 /* VISSTATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VISSTATests.h; sourceTree = "<group>"; };
+		37325E0613D7C99E008765D4 /* VISSTATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37325DD013D7C99D008765D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325DD813D7C99E008765D4 /* UIKit.framework in Frameworks */,
+				37325DDA13D7C99E008765D4 /* Foundation.framework in Frameworks */,
+				37325DDC13D7C99E008765D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37325DF313D7C99E008765D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325DF813D7C99E008765D4 /* UIKit.framework in Frameworks */,
+				37325DF913D7C99E008765D4 /* Foundation.framework in Frameworks */,
+				37325DFA13D7C99E008765D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37325DC813D7C99D008765D4 = {
+			isa = PBXGroup;
+			children = (
+				37325DDD13D7C99E008765D4 /* VISSTA */,
+				37325DFD13D7C99E008765D4 /* VISSTATests */,
+				37325DD613D7C99E008765D4 /* Frameworks */,
+				37325DD413D7C99D008765D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37325DD413D7C99D008765D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37325DD313D7C99D008765D4 /* VISSTA.app */,
+				37325DF713D7C99E008765D4 /* VISSTATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37325DD613D7C99E008765D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37325DD713D7C99E008765D4 /* UIKit.framework */,
+				37325DD913D7C99E008765D4 /* Foundation.framework */,
+				37325DDB13D7C99E008765D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37325DDD13D7C99E008765D4 /* VISSTA */ = {
+			isa = PBXGroup;
+			children = (
+				37325DE613D7C99E008765D4 /* VISSTAAppDelegate.h */,
+				37325DE713D7C99E008765D4 /* VISSTAAppDelegate.m */,
+				37325DE913D7C99E008765D4 /* MainWindow.xib */,
+				37325DEC13D7C99E008765D4 /* VISSTAViewController.h */,
+				37325DED13D7C99E008765D4 /* VISSTAViewController.m */,
+				37325DEF13D7C99E008765D4 /* VISSTAViewController.xib */,
+				37325DDE13D7C99E008765D4 /* Supporting Files */,
+			);
+			path = VISSTA;
+			sourceTree = "<group>";
+		};
+		37325DDE13D7C99E008765D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37325DDF13D7C99E008765D4 /* VISSTA-Info.plist */,
+				37325DE013D7C99E008765D4 /* InfoPlist.strings */,
+				37325DE313D7C99E008765D4 /* VISSTA-Prefix.pch */,
+				37325DE413D7C99E008765D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37325DFD13D7C99E008765D4 /* VISSTATests */ = {
+			isa = PBXGroup;
+			children = (
+				37325E0413D7C99E008765D4 /* VISSTATests.h */,
+				37325E0613D7C99E008765D4 /* VISSTATests.m */,
+				37325DFE13D7C99E008765D4 /* Supporting Files */,
+			);
+			path = VISSTATests;
+			sourceTree = "<group>";
+		};
+		37325DFE13D7C99E008765D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37325DFF13D7C99E008765D4 /* VISSTATests-Info.plist */,
+				37325E0013D7C99E008765D4 /* InfoPlist.strings */,
+				37325E0313D7C99E008765D4 /* VISSTATests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37325DD213D7C99D008765D4 /* VISSTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37325E0A13D7C99E008765D4 /* Build configuration list for PBXNativeTarget "VISSTA" */;
+			buildPhases = (
+				37325DCF13D7C99D008765D4 /* Sources */,
+				37325DD013D7C99D008765D4 /* Frameworks */,
+				37325DD113D7C99D008765D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VISSTA;
+			productName = VISSTA;
+			productReference = 37325DD313D7C99D008765D4 /* VISSTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37325DF613D7C99E008765D4 /* VISSTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37325E0D13D7C99E008765D4 /* Build configuration list for PBXNativeTarget "VISSTATests" */;
+			buildPhases = (
+				37325DF213D7C99E008765D4 /* Sources */,
+				37325DF313D7C99E008765D4 /* Frameworks */,
+				37325DF413D7C99E008765D4 /* Resources */,
+				37325DF513D7C99E008765D4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37325DFC13D7C99E008765D4 /* PBXTargetDependency */,
+			);
+			name = VISSTATests;
+			productName = VISSTATests;
+			productReference = 37325DF713D7C99E008765D4 /* VISSTATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37325DCA13D7C99D008765D4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 37325DCD13D7C99D008765D4 /* Build configuration list for PBXProject "VISSTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37325DC813D7C99D008765D4;
+			productRefGroup = 37325DD413D7C99D008765D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37325DD213D7C99D008765D4 /* VISSTA */,
+				37325DF613D7C99E008765D4 /* VISSTATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37325DD113D7C99D008765D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325DE213D7C99E008765D4 /* InfoPlist.strings in Resources */,
+				37325DEB13D7C99E008765D4 /* MainWindow.xib in Resources */,
+				37325DF113D7C99E008765D4 /* VISSTAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37325DF413D7C99E008765D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325E0213D7C99E008765D4 /* InfoPlist.strings in Resources */,
+				37325E0513D7C99E008765D4 /* VISSTATests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37325DF513D7C99E008765D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37325DCF13D7C99D008765D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325DE513D7C99E008765D4 /* main.m in Sources */,
+				37325DE813D7C99E008765D4 /* VISSTAAppDelegate.m in Sources */,
+				37325DEE13D7C99E008765D4 /* VISSTAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37325DF213D7C99E008765D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37325E0713D7C99E008765D4 /* VISSTATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37325DFC13D7C99E008765D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37325DD213D7C99D008765D4 /* VISSTA */;
+			targetProxy = 37325DFB13D7C99E008765D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37325DE013D7C99E008765D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37325DE113D7C99E008765D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37325DE913D7C99E008765D4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37325DEA13D7C99E008765D4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		37325DEF13D7C99E008765D4 /* VISSTAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37325DF013D7C99E008765D4 /* en */,
+			);
+			name = VISSTAViewController.xib;
+			sourceTree = "<group>";
+		};
+		37325E0013D7C99E008765D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37325E0113D7C99E008765D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37325E0813D7C99E008765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		37325E0913D7C99E008765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		37325E0B13D7C99E008765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISSTA/VISSTA-Prefix.pch";
+				INFOPLIST_FILE = "VISSTA/VISSTA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37325E0C13D7C99E008765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISSTA/VISSTA-Prefix.pch";
+				INFOPLIST_FILE = "VISSTA/VISSTA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37325E0E13D7C99E008765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VISSTA.app/VISSTA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISSTATests/VISSTATests-Prefix.pch";
+				INFOPLIST_FILE = "VISSTATests/VISSTATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37325E0F13D7C99E008765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VISSTA.app/VISSTA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISSTATests/VISSTATests-Prefix.pch";
+				INFOPLIST_FILE = "VISSTATests/VISSTATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37325DCD13D7C99D008765D4 /* Build configuration list for PBXProject "VISSTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37325E0813D7C99E008765D4 /* Debug */,
+				37325E0913D7C99E008765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37325E0A13D7C99E008765D4 /* Build configuration list for PBXNativeTarget "VISSTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37325E0B13D7C99E008765D4 /* Debug */,
+				37325E0C13D7C99E008765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37325E0D13D7C99E008765D4 /* Build configuration list for PBXNativeTarget "VISSTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37325E0E13D7C99E008765D4 /* Debug */,
+				37325E0F13D7C99E008765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37325DCA13D7C99D008765D4 /* Project object */;
+}
