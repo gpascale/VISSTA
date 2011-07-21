@@ -39,20 +39,20 @@
 		37325DD713D7C99E008765D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37325DD913D7C99E008765D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37325DDB13D7C99E008765D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37325DDF13D7C99E008765D4 /* VISSTA-Info.plist */ = {isa = PBXFileReference; path = "VISSTA-Info.plist"; sourceTree = "<group>"; };
+		37325DDF13D7C99E008765D4 /* VISSTA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VISSTA-Info.plist"; sourceTree = "<group>"; };
 		37325DE113D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		37325DE313D7C99E008765D4 /* VISSTA-Prefix.pch */ = {isa = PBXFileReference; path = "VISSTA-Prefix.pch"; sourceTree = "<group>"; };
+		37325DE313D7C99E008765D4 /* VISSTA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VISSTA-Prefix.pch"; sourceTree = "<group>"; };
 		37325DE413D7C99E008765D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37325DE613D7C99E008765D4 /* VISSTAAppDelegate.h */ = {isa = PBXFileReference; path = VISSTAAppDelegate.h; sourceTree = "<group>"; };
+		37325DE613D7C99E008765D4 /* VISSTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VISSTAAppDelegate.h; sourceTree = "<group>"; };
 		37325DE713D7C99E008765D4 /* VISSTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTAAppDelegate.m; sourceTree = "<group>"; };
 		37325DEA13D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		37325DEC13D7C99E008765D4 /* VISSTAViewController.h */ = {isa = PBXFileReference; path = VISSTAViewController.h; sourceTree = "<group>"; };
+		37325DEC13D7C99E008765D4 /* VISSTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VISSTAViewController.h; sourceTree = "<group>"; };
 		37325DED13D7C99E008765D4 /* VISSTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTAViewController.m; sourceTree = "<group>"; };
 		37325DF013D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VISSTAViewController.xib; sourceTree = "<group>"; };
 		37325DF713D7C99E008765D4 /* VISSTATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISSTATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37325DFF13D7C99E008765D4 /* VISSTATests-Info.plist */ = {isa = PBXFileReference; path = "VISSTATests-Info.plist"; sourceTree = "<group>"; };
+		37325DFF13D7C99E008765D4 /* VISSTATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VISSTATests-Info.plist"; sourceTree = "<group>"; };
 		37325E0113D7C99E008765D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		37325E0313D7C99E008765D4 /* VISSTATests-Prefix.pch */ = {isa = PBXFileReference; path = "VISSTATests-Prefix.pch"; sourceTree = "<group>"; };
+		37325E0313D7C99E008765D4 /* VISSTATests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VISSTATests-Prefix.pch"; sourceTree = "<group>"; };
 		37325E0413D7C99E008765D4 /* VISSTATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VISSTATests.h; sourceTree = "<group>"; };
 		37325E0613D7C99E008765D4 /* VISSTATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISSTATests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
